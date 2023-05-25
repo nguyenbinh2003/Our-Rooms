@@ -8,9 +8,8 @@
 
 
 .div {
-    padding-top: 6%;
+    padding: 5% 5% 0 5%;
     width: 100%;
-    display: flex;
 }
 
 .our-rooms {
@@ -35,6 +34,7 @@
 .imgs-texts img:hover {
     filter: brightness(70%);
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .text ul {

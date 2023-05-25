@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display:ital,wght@0,500;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+}
+
+.latest-news {
+    height: 145px;
+    font-size: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+section {
+    width: 100%;
+}
+
+.items .text span {
+    color: #c19b76;
+    font-size: 18px;
+}
+
+.items img {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.items img:hover {
+    filter: brightness(70%);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.items .p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: rgba(21, 21, 21, 0.7);
+    text-align: left;
+}
+
+.items .text span:hover {
+    color: #151515;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.text ul{
+    padding: 10px 0;
+    line-height: 24px;
+}
+
+ul li {
+    font-size: 15px;
+    padding-right: 10px; 
+    list-style-type: none;
+    text-align: left;
+}
+
+ul li:not(:last-child)::after {
+    content: " | ";
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #151515;
+}
+
+ul li a:hover {
+    color: #c19b76;
+    transition: all 0.2s ease;
+}
